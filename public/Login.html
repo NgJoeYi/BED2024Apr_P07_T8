@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Educational Website</title>
+    <link rel="stylesheet" href="LoginRegister.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="form-overlay" id="loginContainer">
+            <h2>Login</h2>
+            <form id="loginForm" action="/users/login" method="post">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="register.html" id="registerLink">Create one</a></p>
+        </div>
+    </div>
+    <script src="Login.js"></script>
+</body>
+</html>

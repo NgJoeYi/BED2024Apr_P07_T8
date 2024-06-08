@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="LoginRegister.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="form-overlay" id="registerContainer">
+            <div class="form-toggle">
+                <button id="lectureBtn">Lecture</button>
+                <button id="studentBtn" class="selected">Student</button>
+            </div>
+            <h2>Create</h2>
+            <form id="registerForm" action="/users/register" method="post">
+                <input type="hidden" name="role" id="role" value="student"> <!-- Hidden input for role -->
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <div class="checkbox-container">
+                    <input type="checkbox" name="terms" id="terms" required>
+                    <label for="terms" class="terms-label">I agree to the Terms & Conditions and Privacy Policy</label>
+                </div>
+                <button type="submit">Create</button>
+            </form>
+            <p>Already have an account? <a href="login.html" id="loginLink">Login</a></p>
+        </div>
+    </div>
+    <script src="Register.js"></script>
+</body>
+</html>
