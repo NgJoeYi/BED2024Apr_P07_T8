@@ -1,5 +1,6 @@
 # BED2024Apr_P07_T8
 
+## bisque is default colour
 
 ### Version Control: 
 The team leader should create a remote GitHub repository named BED2024Apr_P<x>_T<y>, where <x> is your tutorial group number and <y> is your assignment team number or name. Give everyone in your group and your tutor collaborator rights.
@@ -48,3 +49,12 @@ files.
 ### - API documentation if the advanced feature is implemented.
 (Note: Compress the above files as one zipped file and submit this zipped file to
 POLITEMall.)
+
+
+
+
+
+
+
+# CREDITS
+- https://stackoverflow.com/questions/40076638/compare-passwords-bcryptjs (bcrypt to compare hashed stored password in database)
