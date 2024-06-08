@@ -34,19 +34,16 @@ POLITEMall.)
 This is the final submission; you should have completed all functions and pages
 proposed during Checkpoint 1 submission. Deliverables (compress the following
 files as one zipped file and submit this file to POLITEMall):
-## An assignment cover page indicating the Student ID and name of each
-student in the team, with the individual functions in-charge by each student,
-as well as the link to GitHub repository which contains the source code.
+
+## An assignment cover page indicating the Student ID and name of each student in the team, with the individual functions in-charge by each student, as well as the link to GitHub repository which contains the source code.
 ## A group video (not exceeding 40 minutes) includes the following contents:
 ### - Introduce the overall application structure.
 ### - Demonstrating the functions that have been done as a team.
 ### - Demonstrating the functions implemented as individual, mention the
   
 ## student’s name in the video when presenting each function.
-### - A front-end application and back-end application with the source code
-and media files from all team members placed in appropriate sub-folders.
-### - Updated database script and environment files for creation of a database that
-support the back-end application, sample data should be provided in those
+### - A front-end application and back-end application with the source code and media files from all team members placed in appropriate sub-folders.
+### - Updated database script and environment files for creation of a database that support the back-end application, sample data should be provided in those
 files.
 ### - API documentation if the advanced feature is implemented.
 (Note: Compress the above files as one zipped file and submit this zipped file to
